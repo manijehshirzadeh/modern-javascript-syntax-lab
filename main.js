@@ -5,7 +5,7 @@ const multipliedNum = nums.map((num) => {
   return num * 2;
 });
 
-console.log(multipliedNum);
+console.log("exersise 1:", multipliedNum);
 console.log(nums);
 
 // Exercise 2: Array destructuring
@@ -13,7 +13,7 @@ console.log(nums);
 const pizzaToppings = ["Pineapple", "Olives", "Anchovies"];
 const [firstTopping, secendTopping] = pizzaToppings;
 
-console.log(firstTopping);
+console.log("exersise 2:", firstTopping);
 console.log(secendTopping);
 
 // Exercise 3: Destructuring objects
@@ -24,7 +24,7 @@ const car = {
 };
 
 const { make, model } = car;
-console.log(make);
+console.log("exersise 3:", make);
 console.log(model);
 
 // Exercise 4: Applying the spread operator on arrays
@@ -32,7 +32,7 @@ console.log(model);
 const pizzaToppings2 = ["Pineapple", "Olives", "Anchovies"];
 
 const controversialPizzaToppings = [...pizzaToppings2];
-console.log(controversialPizzaToppings);
+console.log("exersise 4:", controversialPizzaToppings);
 
 // Exercise 5: Applying the spread operator on objects
 
@@ -45,7 +45,7 @@ const myCar = { ...car };
 
 myCar.model = "q7";
 
-console.log(car2);
+console.log("exersise 5:", car2);
 console.log(myCar);
 
 // Exercise 6: Dynamic keys in objects
@@ -55,7 +55,7 @@ const userProfile = {
   [propertyName]: "Commerce Center Mall",
 };
 
-console.log(userProfile);
+console.log("exersise 6:", userProfile);
 
 // Exercise 8: Default parameters
 
@@ -77,7 +77,7 @@ if (pizza === "tasty") {
 }
 
 let pizzaTast = pizza === "tasty" ? "yum" : "yuck";
-console.log(pizzaTast);
+console.log("exersise 9:", pizzaTast);
 
 // Exercise 10: Boolean gates
 // 1. SET LANGUAGE
@@ -86,7 +86,7 @@ const localLangConfig = "fr";
 
 let LANG = localLangConfig || "en";
 
-console.log("Language setting:", LANG);
+console.log("exersise 10:", "Language setting:", LANG);
 
 // 2. SET WEBSITE THEME
 
@@ -104,4 +104,4 @@ const adventurer = {
 
 let cat = adventurer.cat?.age;
 
-console.log(cat);
+console.log("exersise 11:", cat);
